@@ -3,11 +3,12 @@ LIB_MAJOR = 2
 LIB_MINOR = 0
 
 SRCS = audctrl.c
-
 INCLUDES = audctrl.h
 
 include ../../buildsys.mk
 include ../../extra.mk
+
+includesubdir = audacious
 
 pre-depend:
 	cd ../audacious; ${MAKE} ${MFLAGS} dbus-client-bindings.h
