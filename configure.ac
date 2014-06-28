@@ -5,7 +5,7 @@ dnl ***
 dnl Initialize
 dnl ==========
 AC_PREREQ([2.59])
-AC_INIT([libaudclient], [3.5-rc1])
+AC_INIT([libaudclient], [3.5-rc2])
 AC_COPYRIGHT([(C) 2005-2014 Audacious Team])
 
 AC_SUBST([PACKAGE], [AC_PACKAGE_TARNAME])
